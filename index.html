@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/screen.css?v=387484ee0155a82cbe03aecdcbe5d2f6">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css?v=4eadbf7d1721bb2729e398595bc7f0bc">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css?v=6c5e32ffa6e869f2f3410167be7e7247">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="bower_components/angular/angular.min.js?v=9eec1fa808717223304913198e11319c"></script>
+  <script src="bower_components/angular-route/angular-route.min.js?v=b2860f8d3f93078e50223a70919eb7f1"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqo5juFNXjV5f_TgSW_6vYxWhUCwNqaUE&libraries=places"></script>
+
+  <!-- AngularJS -->
+</script>
+  <script src="js/app.js?v=584696d7a7b54506df4ed83b1c774f7e"></script>
+  <script src="js/controllers/listController.js?v=507722a6dc938ac1fc5a92774272b40b"></script>
+
+</head>
+<body>
+<header><div class="jumbotron">
+  <h1>Your Weather</h1>      
+  <p>Look at your weather before going out today.</p>
+</div></header>
+<div class="page">
+  
+  <main class="cf" ng-view>
+  </main>
+</div>
+</body>
+</html>
